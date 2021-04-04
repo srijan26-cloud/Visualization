@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel='stylesheet' type='text/css' href='./css/index.css' />
+	</head>
+	
+	<body>
+		<div id='range_container'>
+			<label for='array_range'> Size of Array : </label>
+			<input type='range' id='array_range' step='5' value='20' max='40' min='15'><br><br>
+
+			<label for='time_range'> Time Range : </label>
+			<input type='range' id='time_range' step='1' value='5' max='5' min='1'><br><br>
+
+			<button id='generate_array'>Generate New Array</button>
+		</div>
+		<div id='button_container'>
+			<button class='algo_button'>Bubble Sort</button>
+			<button class='algo_button'>Selection Sort</button>
+			<button class='algo_button'>Insertion Sort</button>
+			<button class='algo_button'>Heap Sort</button>
+			<button class='algo_button'>Merge Sort</button>
+			<button class='algo_button'>Quick Sort</button>
+		</div>
+		<div id='container'>
+		</div>
+
+		<script src='./js/main.js'></script>
+		<script src='./js/bubble.js'></script>
+		<script src='./js/selection.js'></script>
+		<script src='./js/merge.js'></script>
+		<script src='./js/heap.js'></script>
+		<script src='./js/insertion.js'></script>
+		<script src='./js/quick.js'></script>
+		<script src='./js/visualization.js'></script>
+		
+	</body>
+	
+</html>

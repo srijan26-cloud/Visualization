@@ -1,0 +1,30 @@
+body {
+    color: black;
+}
+
+#container {
+    padding: 5px;
+    margin-top: 14%;
+    justify-content: center;
+    align-items: center;
+}
+
+    #container section {
+        display: inline;
+        float: left;
+        margin-left: 5px;
+        top: 5px;
+        width: 30px;
+    }
+
+#range_container {
+    position: fixed;
+    top: 2%;
+    display: inline;
+}
+
+#button_container {
+    position: fixed;
+    top: 20%;
+    display: inline;
+}
